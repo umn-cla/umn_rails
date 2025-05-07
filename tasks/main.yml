@@ -4,3 +4,4 @@
   template:
     src: env.j2
     dest: "/var/www/{{ appname_short}}/shared/.env"
+    mode: 0755
