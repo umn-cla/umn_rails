@@ -1,2 +1,9 @@
----
-# defaults file for umn_sample_role
+shib_metadata_url: "https://login.umn.edu/metadata.xml"
+shib_did: "https://www.umn.edu/shibboleth/attributes/umnDID"
+shib_is_guest: "https://www.umn.edu/shibboleth/attributes/isGuest"
+shib_entity_id: 
+shib_idp_sso: "https://login.umn.edu/idp/profile/SAML2/Redirect/SSO"
+shib_idp_slo: "https://login.umn.edu/idp/profile/Logout"
+shib_x509_cert: 
+shib_private_key: 
+rails_env: "production"
