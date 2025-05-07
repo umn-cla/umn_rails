@@ -7,3 +7,4 @@ shib_idp_slo: "https://login.umn.edu/idp/profile/Logout"
 shib_x509_cert: 
 shib_private_key: 
 rails_env: "production"
+db_ssl_ca_file: "/etc/ssl/certs/ca-bundle.crt"
